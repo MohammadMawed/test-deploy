@@ -11,7 +11,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/');
+      const response = await fetch('https://test-deploy-uch1-mohammadmawed.vercel.app/');
       const jsonData = await response.json();
       setData(jsonData.message); // Assuming your backend sends a JSON object with a 'message' field
     } catch (error) {
