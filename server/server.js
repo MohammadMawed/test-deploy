@@ -5,7 +5,7 @@ const port = 3000;
 
 // Specify the allowed origin in the cors options
 const corsOptions = {
-  origin: 'https://test-deploy-lac-seven.vercel.app/',
+  origin: 'https://test-deploy-lac-seven.vercel.app',
 };
 
 // Use the cors middleware with the specified options
